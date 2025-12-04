@@ -1,0 +1,10 @@
+cv-portfolio/
+  index.html
+  data/
+    cv.json
+  assets/
+    css/
+      styles.css
+    js/
+      app.js
+  README.md
