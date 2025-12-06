@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   sync-to-qa1:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Naruto]
     steps:
       - name: Checkout Dev1
         uses: actions/checkout@v4
