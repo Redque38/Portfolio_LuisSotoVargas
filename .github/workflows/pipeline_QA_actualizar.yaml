@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   sync-to-qa1:
-    runs-on: [self-hosted, linux, Naruto]
+    runs-on: self-hosted
     steps:
       - name: Testing hello world
         run: |
