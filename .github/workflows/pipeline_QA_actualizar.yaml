@@ -15,16 +15,15 @@ jobs:
     steps:
       - name: Testing hello world
         run: |
-          echo "Hello World Dev1 to QA1"
-          # git config user.name "Redque38"
-          # git config user.email "enrikesoto38@gmail.com"
+          git config user.name "Redque38"
+          git config user.email "enrikesoto38@gmail.com"
 
-      # - name: Empujar Dev1 a QA1 (crea/actualiza)
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #   run: |
-      #     # Traer referencia remota de QA1 si existe (no falla si no existe)
-      #     git fetch origin QA1 || true
-      #     # Forzar actualización de QA1 para que apunte al mismo commit que Dev1.
-      #     # --force-with-lease evita sobrescribir cambios concurrentes sin intención.
-      #     git push origin HEAD:refs/heads/QA1 --force-with-lease
+      - name: Empujar Dev1 a QA1 (crea/actualiza)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+        run: |
+          # Traer referencia remota de QA1 si existe (no falla si no existe)
+          git fetch origin QA1 || true
+          # Forzar actualización de QA1 para que apunte al mismo commit que Dev1.
+          # --force-with-lease evita sobrescribir cambios concurrentes sin intención.
+          git push origin HEAD:refs/heads/QA1 --force-with-lease
