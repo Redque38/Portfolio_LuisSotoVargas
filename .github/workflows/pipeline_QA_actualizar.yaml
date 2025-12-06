@@ -13,13 +13,6 @@ jobs:
   sync-to-qa1:
     runs-on: [self-hosted, linux, Naruto]
     steps:
-      - name: Checkout Dev1
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          ref: Dev1
-          persist-credentials: true
-
       - name: Testing hello world
         run: |
           echo "Hello World Dev1 to QA1"
