@@ -22,7 +22,7 @@ jobs:
 
       - name: Testing hello world
         run: |
-          echo "Hello World from Dev1 to QA1"
+          echo "Hello World Dev1 to QA1"
           # git config user.name "Redque38"
           # git config user.email "enrikesoto38@gmail.com"
 
