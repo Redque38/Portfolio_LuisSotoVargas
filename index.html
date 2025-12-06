@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>CV - Luis Enrique Soto Vargas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="page">
+        <header class="cv-header">
+            <div class="cv-header-main">
+                <h1 id="cv-name"></h1>
+                <h2 id="cv-role"></h2>
+            </div>
+            <div class="cv-header-contact" id="cv-contact"></div>
+        </header>
+
+        <div class="cv-layout">
+            <aside class="cv-sidebar">
+                <section class="cv-section">
+                    <h3>Certificaciones</h3>
+                    <ul id="cv-certificaciones"></ul>
+                </section>
+
+                <section class="cv-section">
+                    <h3>Habilidades tecnicas</h3>
+                    <ul id="cv-habilidades-tecnicas"></ul>
+                </section>
+
+                <section class="cv-section">
+                    <h3>Idiomas</h3>
+                    <ul id="cv-idiomas"></ul>
+                </section>
+            </aside>
+
+            <main class="cv-main">
+                <section class="cv-section">
+                    <h3>Resumen profesional</h3>
+                    <p id="cv-resumen"></p>
+                </section>
+
+                <section class="cv-section">
+                    <h3>Experiencia laboral</h3>
+                    <div id="cv-experiencia"></div>
+                </section>
+
+                <section class="cv-section">
+                    <h3>Educacion</h3>
+                    <ul id="cv-educacion"></ul>
+                </section>
+
+                <section class="cv-section">
+                    <h3>Links</h3>
+                    <ul id="cv-links"></ul>
+                </section>
+
+                <section class="cv-section">
+                    <h3>Referencias</h3>
+                    <ul id="cv-referencias"></ul>
+                </section>
+            </main>
+        </div>
+
+        <footer class="cv-footer">
+            <a href="data/cv.json" download="cv-luis-enrique-soto-vargas.json" class="btn">
+                Descargar CV en JSON
+            </a>
+            <button type="button" id="btn-pdf" class="btn">
+                Descargar CV en PDF
+            </button>
+        </footer>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

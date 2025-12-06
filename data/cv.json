@@ -1,0 +1,98 @@
+{
+  "nombre": "Luis Enrique Soto Vargas",
+  "roles": [
+    "Ingeniero de QA",
+    "Soportista Técnico",
+    "Analista de Datos"
+  ],
+  "contacto": {
+    "identificación": "6 0424 0914",
+    "teléfono": "+506 85191964",
+    "correo": "Enrikesoto38@gmail.com",
+    "dirección": "Costa Rica, San José, Goicochea, Guadalupe, El Alto"
+  },
+  "resumen_profesional": "Ingeniero de QA con dos años de experiencia en pruebas funcionales (Manuales) con Testplans y automatizadas utilizando Selenium, mejorando la calidad de sistemas críticos en sectores financieros y judiciales. Otra experiencia sería dos años en el rol de Soportista Técnico regional en mesa de servicio de TI. Con cocimientos sólidos en desarrollo web y bases de datos SQL/NoSQL, con un enfoque proactivo y detallista en la optimización de procesos de prueba y entregables confiables.",
+
+  "experiencia_laboral": [
+    {
+      "puesto": "Ingeniero de Software Junior",
+      "empresa": "Prosoft",
+      "fecha inicio": "1 Diciembre 2020",
+      "fecha finalización": "3 Febrero 2022",
+      "modalidad": "Remoto",
+      "descripción": "Realicé pruebas manuales y automatizadas para CGP y Coopenae Virtual, dando seguimiento a defectos en DevOps bajo Integración Continua. Automatización de casos de prueba con Selenium para plataformas financieras."
+    },
+    {
+      "puesto": "Soporte y Mantenimiento de TI",
+      "empresa": "Grupo Alega",
+      "fecha inicio": "23 Mayo 2022",
+      "fecha finalización": "30 Agosto 2024",
+      "modalidad": "Presencial, Outsourcing",
+      "descripción": "Gestión de incidentes, mantenimiento de sistemas y labores de seguridad en plataformas judiciales y entornos Windows. Activo en múltiples periodos entre 2022 y 2024."
+    },
+    {
+      "puesto": "Soportista Técnico Regional en Informática",
+      "empresa": "Poder Judicial Puntarenas",
+      "fecha inicio": "4 Noviembre 2023",
+      "fecha finalización": "29 Noviembre 2023",
+      "modalidad": "Presencial",
+      "descripción": "Brindé resolución de incidentes, soporte en salas de juicio y continuidad operativa. Nombramientos temporales en el Poder judicial de Puntarenas durante los periodos 2023 y 2024."
+    },
+    {
+      "puesto": "QA Functional Tester",
+      "empresa": "Grupo Babel",
+      "fecha inicio": "18 Septiembre 2024",
+      "fecha finalización": "16 Agosto 2025",
+      "modalidad": "Remoto",
+      "descripción": "Realicé pruebas funcionales para SIGECAP del Poder Judicial y validación del sistema EDUS SIES de la CCSS. Desarrollé automatización en Selenium para el Sistema de Proyección Plurianual (SPP) del Poder Judicial. Enfoque en aseguramiento de calidad, cobertura y reducción de defectos críticos en proyectos del sector público."
+    }
+  ],
+
+  "educacion": [
+    {
+      "grado": "Bachillerato en Informática de Negocios",
+      "institución": "Universidad de Costa Rica",
+      "localización": "Puntarenas, Costa Rica",
+      "periodo": "2014 - 2021"
+    },
+    {
+      "grado": "Técnico en Análisis de Datos",
+      "institución": "Tecnológico de Costa Rica",
+      "localización": "CartagoCosta Rica",
+      "periodo": "2025 - En curso"
+    }
+  ],
+  "certificaciones": [
+    "ISTQB Certified Tester, Foundation Level - 4 de octubre de 2024 (ID: 24-CTFL-251618-81)",
+    "Scrum Fundamentals Certified - 30 de septiembre de 2024 (ID: 1050409)",
+    "Six Sigma Yellow Belt - 30 de septiembre de 2024 (ID: 896815)"
+  ],
+  "habilidades_tecnicas": [
+    "Pruebas QA: Selenium",
+    "Desarrollo: Java, .NET C#, JavaScript, Python",
+    "BD SQL: SQL Server, MySQL, Oracle",
+    "BD NoSQL: MongoDB",
+    "Metodologías: Scrum, POO, MVC, SOLID, DevOps",
+    "Herramientas: REST API, Postman, JSON, Azure, Jira, Trello, Git"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "nivel": "Nativo"
+    },
+    {
+      "idioma": "Inglés",
+      "nivel": "Intermedio avanzado (B2)"
+    }
+  ],
+  "links": {
+    "linkedin": "www.linkedin.com/in/luis-enrique-soto-vargas-344605253/",
+    "cv portafolio": "https://tu-dominio-o-github-pages"
+  },
+
+  "referencias": [
+    "Rudy Barboza - Product Manager, Babel Group - +506 88963603 - rudy.barboza@babelgroup.com",
+    "Carlos Luis Gonzalez Lara - Profesional en TI, Poder Judicial Puntarenas - +506 88296464 - cgonzalezl@poder-judicial.go.cr",
+    "Eduardo Alberto Chinchilla Perez - Profesor pensionado UCR - +506 83147065 - eduardo.chinchillap@gmail.com"
+  ]
+}
