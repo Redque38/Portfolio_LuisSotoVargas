@@ -13,7 +13,14 @@ jobs:
   sync-to-qa1:
     runs-on: self-hosted
     steps:
-      - name: Testing hello world
+      - name: Checkout Dev1
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: Dev1
+          persist-credentials: true
+
+      - name: Configurar usuario Git
         run: |
           git config user.name "Redque38"
           git config user.email "enrikesoto38@gmail.com"
