@@ -32,7 +32,7 @@ async function cargarCV() {
     const certUl = document.getElementById("cv-certificaciones");
     cv.certificaciones.forEach(cert => {
         const li = document.createElement("li");
-        li.className = "list-group-item border-|0 px-0";
+        li.className = "list-group-item border-0 px-0";
         li.textContent = cert;
         certUl.appendChild(li);
     });
