@@ -32,6 +32,7 @@ async function cargarCV() {
     const certUl = document.getElementById("cv-certificaciones");
     cv.certificaciones.forEach(cert => {
         const li = document.createElement("li");
+        li.className = "list-group-item border-|0 px-0";
         li.textContent = cert;
         certUl.appendChild(li);
     });
@@ -40,6 +41,7 @@ async function cargarCV() {
     const habTecUl = document.getElementById("cv-habilidades-tecnicas");
     cv.habilidades_tecnicas.forEach(hab => {
         const li = document.createElement("li");
+        li.className = "list-group-item border-0 px-0";
         li.textContent = hab;
         habTecUl.appendChild(li);
     });
@@ -48,6 +50,7 @@ async function cargarCV() {
     const idiomasUl = document.getElementById("cv-idiomas");
     cv.idiomas.forEach(idiomaObj => {
         const li = document.createElement("li");
+        li.className = "list-group-item border-0 px-0";
         li.textContent = `${idiomaObj.idioma} – ${idiomaObj.nivel}`;
         idiomasUl.appendChild(li);
     });
@@ -77,6 +80,7 @@ async function cargarCV() {
     const eduUl = document.getElementById("cv-educacion");
     cv.educacion.forEach(ed => {
         const li = document.createElement("li");
+        li.className = "list-group-item border-0 px-0";
         li.textContent = `${ed.grado}, ${ed.institución}, ${ed.localización} (${ed.periodo})`;
         eduUl.appendChild(li);
     });
@@ -85,12 +89,14 @@ async function cargarCV() {
     const linksUl = document.getElementById("cv-links");
     if (cv.links && cv.links.linkedin) {
         const li = document.createElement("li");
-        li.innerHTML = `LinkedIn: <a href="https://${cv.links.linkedin}" target="_blank">${cv.links.linkedin}</a>`;
+        li.className = "list-group-item border-0 px-0";
+        li.innerHTML = `LinkedIn: <a href="https://${cv.links.linkedin}" target="_blank" rel="noopener">${cv.links.linkedin}</a>`;
         linksUl.appendChild(li);
     }
     if (cv.links && cv.links["cv portafolio"]) {
         const li = document.createElement("li");
-        li.innerHTML = `CV Portafolio: <a href="${cv.links["cv portafolio"]}" target="_blank">${cv.links["cv portafolio"]}</a>`;
+        li.className = "list-group-item border-0 px-0";
+        li.innerHTML = `CV Portafolio: <a href="${cv.links["cv portafolio"]}" target="_blank" rel="noopener">${cv.links["cv portafolio"]}</a>`;
         linksUl.appendChild(li);
     }
 
@@ -98,6 +104,7 @@ async function cargarCV() {
     const refUl = document.getElementById("cv-referencias");
     cv.referencias.forEach(ref => {
         const li = document.createElement("li");
+        li.className = "list-group-item border-0 px-0";
         li.textContent = ref;
         refUl.appendChild(li);
     });
